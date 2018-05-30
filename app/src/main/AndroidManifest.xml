@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shanto.phulkurikisholoy" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="@string/title_activity_main_activity2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Introduction"
+            android:label="@string/title_activity_introduction" >
+        </activity>
+        <activity
+            android:name=".Established"
+            android:label="@string/title_activity_established" >
+        </activity>
+        <activity
+            android:name=".ideologies"
+            android:label="@string/title_activity_ideologies" >
+        </activity>
+        <activity
+            android:name=".Programs"
+            android:label="@string/title_activity_programs" >
+        </activity>
+        <activity
+            android:name=".special_projects"
+            android:label="@string/title_activity_special_projects" >
+        </activity>
+        <activity
+            android:name=".Rajshahi_Regional_Members"
+            android:label="@string/title_activity_rajshahi__regional__members" >
+        </activity>
+        <activity
+            android:name=".About_Developer"
+            android:label="@string/title_activity_about__developer" >
+        </activity>
+        <activity
+            android:name=".Website"
+            android:label="@string/title_activity_website" >
+        </activity>
+    </application>
+
+</manifest>

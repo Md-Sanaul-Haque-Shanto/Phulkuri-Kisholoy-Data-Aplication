@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanto.phulkurikisholoy.Programs">
+
+    <TextView
+        android:id="@+id/text24"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:text="Programs of Phulkuri Ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff323ca1" />
+    <TextView
+        android:textSize="19dp"
+        android:layout_below="@+id/text24"
+        android:id="@+id/text25"
+        android:text="Phulkuri has its five point programs, executed through five departments. The five departments are as follows...
+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff64a321" />
+    <ScrollView
+        android:layout_below="@+id/text25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="(A) Education and Literary Department:
+
+Through the activities of this department, Phulkuri wants to develop talents and potentials of its members. This department offers library facilities, organizing literary meetings, training camps, training sessions, educational tours and other programs which help the member to know more, read more and practice more.
+
+(B) Cultural Department:
+
+The objective of this department is to save the children from the aggression of so-called modern culture and make them morally developed. Recitation class, Drama class, Song class, Cultural competition, Cultural week, Tea party, Excursion especially Boat-journey, Picnic etc. are also including the activities of this department.
+
+(C) Sports and Physical Exercise Department:
+
+This department helps children to acquire sporting spirit and physical fitness. There are two types of activities in this department. One is sports and games, and the other is physical exercise. Every unit of Phulkuri has football, volley-ball, cricket, badminton and other sports materials. They play regularly on the other hand, all the members are bound to participate in weekly physical exercise program at their localities. Phulkuri members participate and do well in national and local parade and physical display competitions.
+
+(D) Agricultural, Art and Science Department:
+
+The objective of this department is to make the children interested in Gardening, Arts and scientific Innovation and Discoveries. Phulkuri has a science club, which arranges regular science classes, science seminars and joining in sciences fairs locally and nationally. Our children make handicrafts and other models from clay, still , wood and papers. Every members of Phulkuri has personal a garden and they plant and take care of trees in their gardens. “Phulkuri science club” is registered with the national science museum. The science club has been awarded in national and local science fairs on several occasions.
+
+(E) Social welfare department:
+
+This department covers all types of welfare activities, i.e. lending library books, stipends, adult-education programs, distribution of winter clothing’s and relief for the destitute. Phulkuri implements different welfare projects. Phulkuri inspires its members to extend their helping hands to help the distress, needy , handicapped and old people."
+            android:textColor="#ffd8322e" />
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.shanto.phulkurikisholoy.MainActivity2Activity">
+
+
+    <ImageView
+        android:src="@drawable/pppp"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false" />
+    <TextView
+        android:layout_below="@+id/imageView2"
+        android:text="ফুলকুঁড়ি আসর কিশলয় অঞ্চল। "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:id="@+id/text1"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
+
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Introduction"
+        android:id="@+id/butt"
+        android:background="#ffd8ca23"
+        android:layout_below="@+id/text1"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Established"
+        android:id="@+id/but2"
+        android:background="#ff64a321"
+        android:layout_below="@+id/butt"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Ideologies- principle"
+        android:id="@+id/but3"
+        android:background="#ffb94d1b"
+        android:layout_below="@+id/but2"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Programs"
+        android:id="@+id/but4"
+        android:background="#ff338eb9"
+        android:layout_below="@+id/but3"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Special Projects"
+        android:id="@+id/but5"
+        android:background="#ff8dc330"
+        android:layout_below="@+id/but4"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Rajshahi Regional Members"
+        android:id="@+id/but6"
+        android:background="#ff338eb9"
+        android:layout_below="@+id/but5"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="PhulKuri Website"
+        android:id="@+id/but33"
+        android:background="#ffd8ca23"
+        android:layout_below="@+id/but6"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="About Developer"
+        android:id="@+id/but34"
+        android:background="#ff8c31a3"
+        android:layout_below="@+id/but33"
+        android:layout_alignRight="@+id/text1"
+        android:layout_alignEnd="@+id/text1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="6dp"
+        android:clickable="true" />
+
+
+</RelativeLayout>

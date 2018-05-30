@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanto.phulkurikisholoy.special_projects">
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text26"
+        android:text="Special Projects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/text26"
+        android:textSize="22dp"
+
+        android:id="@+id/text27"
+        android:text="Special Projects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c31a3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+android:textSize="18dp"
+        android:id="@+id/text28"
+        android:layout_below="@+id/text27"
+        android:text="Phulkuri publishes its monthly magazine “Phukuri” regularly since 1979. Phulkuri Ashar has a publication sell which publishes different forms, book lets, and literatures of the organization, diaries, souvenirs etc. Phulkuri arranges regular classes for literature, science, drawing and painting, song recitation and drama. A large number of member’s participates in these classes to flourish their talents."
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text29"
+        android:layout_below="@+id/text28"
+        android:textSize="20dp"
+        android:textColor="#ff8c31a3"
+        android:text="Phulkuri code of conduct"/>
+    <ScrollView
+        android:layout_below="@+id/text29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="19dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1)
+
+All Phulkuri members are brothers to each other.One must convey ‘salaam’ or greetings to another when they meet each other.
+(2)
+
+Always speak the truth and be unique in word and action.
+(3)
+
+Respect the other, love the younger and be cordial in dealing with friends.
+(4)
+
+At first find out own faults, if any then check the fault of others.
+(5)
+
+If a member finds some thing wrong with others, then correct this showing sympathy with out any affront and take it easily.
+(6)
+
+Try to avoid quarrelsome situation.
+(7)
+
+Study the academic texts regularly.
+(8)
+
+Always take care of health and be neat and clean.
+(9)
+
+In any program, to take floor or to go outside, take the permission form the chair.
+(10)
+
+Serve the people irrespective of caste, creed, religion, tribe etc."
+            android:textColor="#ffa6231a" />
+    </ScrollView>
+</RelativeLayout>

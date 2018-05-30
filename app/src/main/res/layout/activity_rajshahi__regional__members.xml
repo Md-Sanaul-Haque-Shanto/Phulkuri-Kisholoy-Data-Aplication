@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanto.phulkurikisholoy.Rajshahi_Regional_Members">
+
+    <TextView
+        android:id="@+id/text30"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:text="Rajshahi Regional Members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="25dp"
+        android:layout_below="@+id/text30"
+        android:id="@+id/text31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Director-Maruful Islam"
+        android:textColor="#ff64a321" />
+    <TextView
+        android:textSize="25dp"
+        android:layout_below="@+id/text31"
+        android:id="@+id/text32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assistant Director-Abdullah Al Mehedi"
+        android:textColor="#ff8c31a3" />
+
+    <TextView
+    android:textSize="25dp"
+    android:layout_below="@+id/text32"
+    android:id="@+id/text33"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Financial Secretarty-Md Hsan"
+        android:textColor="#ff3b1ea1" />
+    <TextView
+    android:textSize="25dp"
+    android:layout_below="@+id/text33"
+    android:id="@+id/text34"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Magazine Secretary-Samiul Islam Bipul"
+        android:textColor="#ffef2d2d" />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanto.phulkurikisholoy.ideologies">
+
+    <TextView
+    android:id="@+id/text10"
+    android:textSize="25dp"
+    android:layout_centerHorizontal="true"
+    android:text="Ideologies- principle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_below="@+id/text10"
+        android:id="@+id/text11"
+        android:textSize="22dp"
+        android:text="Ideologies of Phulkuri Ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c31a3" />
+    <TextView
+        android:layout_below="@+id/text11"
+        android:id="@+id/text12"
+        android:textSize="19dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unity, Education, Character, Health and Service."
+
+         />
+    <TextView
+        android:layout_below="@+id/text12"
+        android:id="@+id/text13"
+        android:textSize="22dp"
+        android:text="আদর্শঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c31a3" />
+    <TextView
+        android:layout_below="@+id/text13"
+        android:id="@+id/text14"
+        android:textSize="19dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="একতা, শিক্ষা, চরিত্র, স্বাস্থ্য ও সেবা।"
+
+        />
+    <TextView
+        android:layout_below="@+id/text14"
+        android:id="@+id/text15"
+        android:textSize="22dp"
+        android:text="Main principle's of Phulkuri Ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c31a3" />
+    <TextView
+        android:layout_below="@+id/text15"
+        android:id="@+id/text16"
+        android:textSize="19dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Build thyself "/>
+
+    <TextView
+        android:layout_below="@+id/text16"
+        android:id="@+id/text17"
+        android:textSize="22dp"
+        android:text="মূলমন্ত্রঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c31a3" />
+    <TextView
+        android:layout_below="@+id/text17"
+        android:id="@+id/text18"
+        android:textSize="19dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" নিজকে গড়ো। "/>
+    <TextView
+        android:layout_below="@+id/text18"
+        android:id="@+id/text19"
+        android:textSize="22dp"
+        android:text="Main Slogan of Phulkuri Ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c31a3" />
+    <TextView
+        android:layout_below="@+id/text19"
+        android:id="@+id/text20"
+        android:textSize="19dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build thyself to build the world"/>
+    <TextView
+        android:layout_below="@+id/text20"
+        android:id="@+id/text21"
+        android:textSize="22dp"
+        android:text="উদ্দেশ্যঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c31a3" />
+    <TextView
+        android:layout_below="@+id/text21"
+        android:id="@+id/text22"
+        android:textSize="19dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="কোমলমতি শিশুকিশোরদের একতাবদ্ধ করে শিক্ষা ও শরীরচর্চামূলক কর্মসূচির মাধ্যমে চরিত্রবান ও স্বাস্থ্যবান রূপে গড়ে তুলে দেশ ও দশের সেবা করা।"/>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanto.phulkurikisholoy.Established">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/text7"
+        android:text="Established"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textColor="#ff8c31a3"
+        android:textSize="22dp"
+        android:id="@+id/text8"
+        android:text="Established of Phulkuri Ashar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ScrollView
+        android:layout_below="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/text9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Phulkuri Ashar is a national children organization of Bangladesh. It working with the boys of schools to build excellent moral character, develop performing quality and good physique with versatile caliber. The organization was established on 28 September 1974. It obtained registration as a national children’s organization from the department of social welfare in 1979. It's Reg. No- D0459.
+It already passed 37 years and By this time Phulkuri has earned a good reputation all over the country. It’s main complain is- “Build thyself to build the world”."/>
+
+
+
+
+</ScrollView>
+
+</RelativeLayout>

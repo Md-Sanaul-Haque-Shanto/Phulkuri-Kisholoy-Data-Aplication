@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shanto.phulkurikisholoy.Introduction">
+
+
+
+        <TextView
+
+            android:layout_centerHorizontal="true"
+            android:id="@+id/text2"
+            android:text="Introduction"
+            android:textSize="29dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/text2"
+            android:id="@+id/text3"
+            android:text="Meaning of Phulkuri Ashar"
+            android:textSize="20dp"
+            android:textColor="#ff1fa113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Phulkuri is a Bengali word. The term ‘Phul’ means flower and the ‘kuri’ means bud. Flower blooms from the bud and come into reality with its fragrance spreading over the society. Similarly, the children grownup and finally lead the nation as responsible citizens.
+"
+            android:id="@+id/text4"
+            android:layout_below="@+id/text3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:layout_below="@+id/text4"
+            android:id="@+id/text5"
+            android:text="পরিচিতিঃ "
+            android:textSize="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd8322e" />
+    <ScrollView
+        android:layout_below="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/text6"
+            android:layout_below="@+id/text5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="ফুলকুঁড়ি আসর
+দেশ সেবায় ব্রত সদা-সুন্দরের পতাকাবাহী শিশুকিশোরদের একটি সংগঠন।
+জ্ঞানের সাধনায় সতত তৎপর শিশুকিশোরদের এক সুশৃঙ্খল সমাবেশ।
+সৎ ও যোগ্য মানুষ হিসেবে গড়ে উঠতে শিশুকিশোরদের এক সংঘবদ্ধ প্রচেষ্টা।"/>
+    </ScrollView>
+
+
+</RelativeLayout>
